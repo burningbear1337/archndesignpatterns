@@ -31,6 +31,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A847C0C2C3ECCAC002530AC /* Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Builder.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		1A847C0D2C3ECCAC002530AC /* Singleton.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Singleton.playground; sourceTree = "<group>"; };
+		1A847C0E2C3ECCAC002530AC /* Factory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Factory.playground; sourceTree = "<group>"; };
+		1A847C0F2C3ECCAC002530AC /* Facade.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Facade.playground; sourceTree = "<group>"; };
+		1A847C102C3ECCAC002530AC /* Observer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observer.playground; sourceTree = "<group>"; };
+		1A847C112C3ECCAC002530AC /* Delegate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Delegate.playground; sourceTree = "<group>"; };
+		1A847C122C3ECCAC002530AC /* Decorator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Decorator.playground; sourceTree = "<group>"; };
 		1AFEB38E2C3E55F900D27E43 /* MVX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFEB3912C3E55F900D27E43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AFEB3932C3E55F900D27E43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +74,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A847C0B2C3ECCAC002530AC /* DesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				1A847C0C2C3ECCAC002530AC /* Builder.playground */,
+				1A847C0D2C3ECCAC002530AC /* Singleton.playground */,
+				1A847C0E2C3ECCAC002530AC /* Factory.playground */,
+				1A847C0F2C3ECCAC002530AC /* Facade.playground */,
+				1A847C102C3ECCAC002530AC /* Observer.playground */,
+				1A847C112C3ECCAC002530AC /* Delegate.playground */,
+				1A847C122C3ECCAC002530AC /* Decorator.playground */,
+			);
+			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
 		1AFEB3852C3E55F900D27E43 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +119,7 @@
 				1AFEB3B72C3E678900D27E43 /* VIPER */,
 				1AFEB39C2C3E55FB00D27E43 /* LaunchScreen.storyboard */,
 				1AFEB39F2C3E55FB00D27E43 /* Info.plist */,
+				1A847C0B2C3ECCAC002530AC /* DesignPatterns */,
 			);
 			path = MVX;
 			sourceTree = "<group>";
